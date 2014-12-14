@@ -15,7 +15,7 @@ See the `youtube video`_ for a demo.
 Software
 --------
 
-Requires the `micropython-ws2812`_ library with `my pull request`_ merged in.
+Requires the `micropython-ws2812`_ library.
 Copy ``ws2812.py`` from there and ``main.py`` from here to your pyboard.
 
 If you have more or fewer than 144 LEDs in your strip, adjust ``SIZE``
@@ -23,7 +23,6 @@ at the top of ``main.py``.
 
 .. _micropython-ws2812: https://github.com/JanBednarik/micropython-ws2812
 
-.. _my pull request: https://github.com/JanBednarik/micropython-ws2812/pull/1
 
 Hardware
 --------
