@@ -78,8 +78,8 @@ for f in frames:
         ball_pos = SIZE - 1
         ball_velocity = -INITIAL_SPEED
         blink((1, 0, 0))
+        scores[1] += 2
         set_background()
-        scores[1] += 1
         if scores[1] > MAX_SCORE:
             end((1, 0, 0))
             break
@@ -87,8 +87,8 @@ for f in frames:
         ball_pos = 0
         ball_velocity = INITIAL_SPEED
         blink((0, 0, 1))
+        scores[0] += 2
         set_background()
-        scores[0] += 1
         if scores[0] > MAX_SCORE:
             end((0, 0, 1))
             break
